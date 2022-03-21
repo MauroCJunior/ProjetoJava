@@ -17,30 +17,19 @@ public class Main {
 		
 		System.out.println("Products:");
 		
-		System.out.print(product1);
-		System.out.print(", which price is $ ");
-		System.out.printf("%.2f%n", price1);
+        System.out.printf("%s, which price is $ %.2f%n", product1, price1);
 		
-		System.out.print(product2);
-		System.out.print(", which price is $ ");
-		System.out.printf("%.2f%n", price2);
+		System.out.printf("%s, which price is $ %.2f%n", product2, price2);
 		
 		System.out.println(" ");
 		
-		System.out.print("Record: ");
-		System.out.print(age);
-		System.out.print(" years old, code ");
-		System.out.print(code);
-		System.out.print(" and gender: ");
-		System.out.println(gender);
+		System.out.printf("Record: %d years old, code %d and gender: %s%n", age, code, gender);
 		
 		System.out.println(" ");
 		
-		System.out.print("Measue with eigt decimal places: ");
-		System.out.printf("%.8f%n", measure);
+		System.out.printf("Measue with eigt decimal places: %.8f%n", measure);
 		
-		System.out.print("Rouded (tree decimal places): ");
-		System.out.printf("%.3f%n", measure);	
+		System.out.printf("Rouded (tree decimal places): %.3f%n", measure);	
 		
 		System.out.print("US decimal point: ");
 		Locale.setDefault(Locale.US);
