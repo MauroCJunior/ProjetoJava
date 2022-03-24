@@ -19,13 +19,11 @@ public class Main {
 		
         System.out.printf("%s, which price is $ %.2f%n", product1, price1);
 		
-		System.out.printf("%s, which price is $ %.2f%n", product2, price2);
+		System.out.printf("%s, which price is $ %.2f%n \r\n", product2, price2);
 		
-		System.out.println(" ");
 		
-		System.out.printf("Record: %d years old, code %d and gender: %s%n", age, code, gender);
+		System.out.printf("Record: %d years old, code %d and gender: %s%n \r\n", age, code, gender);
 		
-		System.out.println(" ");
 		
 		System.out.printf("Measue with eigt decimal places: %.8f%n", measure);
 		
@@ -33,7 +31,10 @@ public class Main {
 		
 		System.out.print("US decimal point: ");
 		Locale.setDefault(Locale.US);
-		System.out.printf("%.3f%n", measure);		
+		System.out.printf("%.3f%n", measure);
+		
+	
+		System.out.printf("Rouded (tree decimal places): %.3f%n", measure);		
 		
 	}
 
