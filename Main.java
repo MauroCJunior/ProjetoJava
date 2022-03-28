@@ -34,7 +34,8 @@ public class Main {
 		System.out.printf("%.3f%n", measure);
 		
 	
-		System.out.printf("Rouded (tree decimal places): %.3f%n", measure);		
+		System.out.printf("Rouded (tree decimal places): %.3f%n", measure);	
+		
 		
 	}
 
